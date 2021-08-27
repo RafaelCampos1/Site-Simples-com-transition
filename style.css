@@ -1,0 +1,45 @@
+body{
+    background-color: aqua;
+}
+
+p{
+    text-align: center;
+    font-size: 300px;
+}
+
+
+
+img{
+
+    width: 100%;
+    height: 100%;
+}
+
+.divs{
+    width: 100%;
+    
+    display:grid;
+
+
+
+}
+
+
+
+.transition{
+    margin: auto;
+    display:flex;
+    background-color: red;
+    height: 2550px;
+    width: 2550px;
+
+    transition-duration: 5.8s;
+}
+
+.transition:hover{
+ 
+    background-color: green;
+    height: 18000px;
+    width: 18000px;
+
+}
